@@ -1,0 +1,134 @@
+.info-box{
+    display: flex;
+    justify-content:center;
+}
+.nav{
+    color: white;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+.nav-items{
+    display: flex;
+    align-items: center;
+}
+ul{
+    display: flex;
+    list-style:none;
+    justify-content: space-evenly;
+}
+button{
+    color: white;
+    height: 30px;
+    width: 100px;
+    justify-self: flex-end;
+    background-color: aquamarine;
+}
+.container-info{
+    width: 420px;
+    height: 350px;
+    border-style: solid;
+    border-width: 1px;
+
+
+}
+.top-bar{
+    width: inherit;
+    height: 100px;
+    min-height: 25%;
+    background-color:aquamarine;
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 4px grey;
+}
+#info{
+    margin-top: 1.5%;
+    margin-left: 4%;
+    position: relative;
+    top: -75px;
+}
+
+.education{
+    padding-top: 0;
+    margin-top: 5%;
+    width: 420px;
+    height: 350px;
+    border-style: solid;
+    border-width: 1px;
+}
+#ed-nav{
+    background-color: black;
+    color: white; 
+    height: 50px;
+    padding-left: 5%;
+    display: flex;
+    align-items: center;
+}
+#ed-info{
+    padding-left: 4%;
+}
+#ed-info h3{
+    color: #bab8af;
+}
+#ed-info p{
+    font-size: 18px;
+    font-weight: bold;
+
+}
+.col-1{
+    margin: 2%;
+}
+.col-2{
+    margin: 2%;
+}
+#requests{
+    width: 280px;
+    height: 200px;
+    border-style: solid;
+    border-width: 1px;
+}
+
+#nav-request{
+    background-color: black;
+    color: white;
+    width: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+#nav-request p{
+    width: 40px;
+    height: 40px;
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    font-weight: bold;
+}
+.col-2 img{
+    width: 40px;
+    height: 40px;
+}
+#contact{
+    display: flex;
+    align-items: center;
+    justify-content: space-around ;
+}
+#name{
+
+    width: 120px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: flex-start;
+}
+#opt{
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
