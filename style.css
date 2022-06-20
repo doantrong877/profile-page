@@ -6,7 +6,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 53%;
+    width: 750px;
 }
 .nav{
     color: white;
@@ -38,7 +38,6 @@ button{
     background-color: aquamarine;
 }
 .container-info{
-    width: 420px;
     height: 350px;
     border-style: solid;
     border-width: 1px;
@@ -65,9 +64,7 @@ img{
 
 .education{
     padding-top: 0;
-    margin-top: 5%;
-    width: 420px;
-    height: 350px;
+    margin-top: 5%;  
     border-style: solid;
     border-width: 1px;
 }
@@ -92,6 +89,7 @@ img{
 }
 .col-1{
     margin: 2%;
+    width: 420px; 
 }
 .col-2{
     margin: 2%;
