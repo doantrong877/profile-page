@@ -2,22 +2,33 @@
     display: flex;
     justify-content:center;
 }
+.nav-bar{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 53%;
+}
 .nav{
     color: white;
     background-color: black;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 
 }
 .nav-items{
     display: flex;
     align-items: center;
+    justify-content: space-around;
+    margin-right: 15%;
 }
-ul{
+#list{
     display: flex;
     list-style:none;
-    justify-content: space-evenly;
+    justify-content: left;
+}
+li{
+    margin: 15px;
 }
 button{
     color: white;
@@ -166,4 +177,12 @@ img{
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+#view-more{
+    border-style: solid;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding-left: 8%;
+    
 }
